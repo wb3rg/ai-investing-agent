@@ -1,0 +1,31 @@
+# AI Investment Agent Framework Requirements
+# Core framework and model integration
+agno>=0.7.0
+openai>=1.0.0
+
+# Financial data providers
+yfinance>=0.2.0
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Additional analysis tools
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Async and web framework support
+asyncio-mqtt>=0.10.0
+fastapi>=0.100.0
+uvicorn>=0.20.0
+
+# Optional: Enhanced data sources
+# financialdatasets  # Requires API key
+# openbb  # Alternative financial data source
+# alpha_vantage  # Another option for market data
+
+# Development and testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+isort>=5.12.0
